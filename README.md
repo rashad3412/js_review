@@ -1,0 +1,2 @@
+- Adding Javascript file to html page so it can show in console and interact with the webpage.
+  - <script src="name of file"> <script>
