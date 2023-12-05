@@ -179,6 +179,7 @@
     }
     - any function in an object is called an Method.
     - you can use the this keyword to get any property from an Object with an function that is in the object.
+    - you can use console.table for object to see it nicely formatted with the index and value. or key value pairs
 
 - Loops
   - loops keeps while running while the condition is true..
@@ -192,6 +193,18 @@
 
   - for (counter, condition, updating the counter(to log all the elements))
 
+- looping backwards:
+  for(let i = ex.length; i >= 0; i --){
+  console.log(ex)
+  }
+
+  - Loop within a Loop
+    - for(let i = ex.length; i >= 0; i --){
+      console.log(ex) <--- This will be on top of bottom loops
+      for(let i = ex.length; i >= 0; i --){
+      console.log(ex)
+      }}
+
 - expressions
 
   - can use a varible declaration ex(const = 4 + 2) or can be used without a varible declaration(4+2). But an expression evaluates to something of value.
@@ -201,6 +214,40 @@
   - a condition is used to determine if a expression is true or false. Basically code logic ex(2 === 2): true.
 
 - statement
+
   - telling your expressions or condition to do something. ex if(){
     everything in the code block is an statement.
     }
+
+- While
+  let ex = 1
+
+  - while (ex <= 0) {
+    console.log("ex)
+    rep++
+    }
+  - all while loops need is a condition to stay true than it will break.
+
+  let dice = math.trunc(math.random())_ 6 + 1
+  while (!= 6){
+  console.log("You rolled a ${dice})
+  dice = math.trunc(math.random() _ 6 + 1)
+  }
+
+- Being a problem solver as a coder
+
+  - Ask yourself about the questions. Does it take numbers,strings, arrays?
+  - Ask your self what should be returned when you are going through the question of the problem?
+  - How to recognize if the argument is a number, string,or array.
+  - Learn to break the problems down in chucks so you can understand what is being asked of you.
+
+- Breaking up the problem in Sub-problems
+
+  - Ask yourself what question can you research within the problem
+
+- Debugging
+  - software bug is a problem in the program.
+  - be aware that it is a bug.
+  - try to identify bugs before production.
+  - isolate wear the bug is happening
+  - Use google chrome for debugging tool
